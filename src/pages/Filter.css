@@ -1,0 +1,132 @@
+/* 전체 컨테이너 */
+.filter-container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* 상단 검색창 */
+.filter-header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #7D9F43;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+/* 필터 섹션 타이틀 */
+.filter-section h3 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 카테고리 및 필터 옵션 */
+.filter-category, 
+.filter-options, 
+.filter-range {
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* 카테고리 버튼 및 옵션 버튼 스타일 */
+.category-button, 
+.option-button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: 1px solid #7D9F43;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-button.selected, 
+.option-button.selected {
+  background-color: #7D9F43;
+  color: white;
+}
+
+/* 마우스 호버 효과 */
+.category-button:hover, 
+.option-button:hover {
+  background-color: #6a8a3a;
+  color: white;
+}
+
+/* 가격 및 무게 슬라이더 컨테이너 */
+.filter-range-item {
+  margin-bottom: 20px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin: 10px 0;
+  appearance: none;
+  background: #ddd;
+  height: 5px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+/* 슬라이더의 손잡이 스타일 */
+input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #7D9F43;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 15px;
+  height: 15px;
+  background: #7D9F43;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[type="range"]::-ms-thumb {
+  width: 15px;
+  height: 15px;
+  background: #7D9F43;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* 적용하기 버튼 */
+.apply-button {
+  width: 100%;
+  padding: 15px;
+  background-color: #7D9F43;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+  background-color: #6a8a3a;
+}
