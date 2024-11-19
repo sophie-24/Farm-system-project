@@ -1,0 +1,87 @@
+.find-id-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.find-id-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+input:focus {
+  border-color: #fe7565;
+  outline: none;
+}
+
+input[type="date"]::placeholder {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.phone-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.phone-container input {
+  flex: 1;
+}
+
+.btn {
+  height: 42px;
+  padding: 0 15px;
+  background-color: #fe7565;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #e04545;
+}
+
+.submit-btn {
+  height: 50px;
+  background-color: #fe7565;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #e04545;
+}

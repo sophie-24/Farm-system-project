@@ -6,6 +6,8 @@ import Home from "./pages/Home";
 import ProductDetail from "./pages/ProductDetail"; // 상품 상세 페이지
 import Filter from "./pages/Filter"; // 필터 페이지
 import Register from "./pages/Register"; // 회원가입 페이지
+import FindId from './pages/FindID';
+import FindPassword from './pages/FindPassword';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -28,6 +30,9 @@ const App = () => {
           <Route path="/product/:id" element={<ProductDetail />} /> {/* 상품 상세 페이지 */}
           <Route path="/filter" element={<Filter />} /> {/* 필터 페이지 */}
           <Route path="/register" element={<Register />} /> {/* 회원가입 페이지 */}
+          <Route path="/find-id" element={<FindId />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/find-password" element={<FindPassword />} />
         </Routes>
       )}
     </Router>

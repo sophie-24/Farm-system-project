@@ -16,7 +16,7 @@
 .search-bar {
   width: 80%;
   padding: 10px;
-  border: 1px solid #7D9F43;
+  border: 1px solid #FE7565;
   border-radius: 5px;
   font-size: 14px;
 }
@@ -47,7 +47,7 @@ h4 {
 .option-button {
   margin: 5px;
   padding: 10px 15px;
-  border: 1px solid #7D9F43;
+  border: 1px solid #FE7565;
   border-radius: 5px;
   background-color: white;
   font-size: 14px;
@@ -57,14 +57,14 @@ h4 {
 
 .category-button.selected, 
 .option-button.selected {
-  background-color: #7D9F43;
+  background-color: #FE7565;
   color: white;
 }
 
 /* 마우스 호버 효과 */
 .category-button:hover, 
 .option-button:hover {
-  background-color: #6a8a3a;
+  background-color: #FE7565;
   color: white;
 }
 
@@ -89,7 +89,7 @@ input[type="range"]::-webkit-slider-thumb {
   appearance: none;
   width: 15px;
   height: 15px;
-  background: #7D9F43;
+  background: #FE7565;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -98,7 +98,7 @@ input[type="range"]::-webkit-slider-thumb {
 input[type="range"]::-moz-range-thumb {
   width: 15px;
   height: 15px;
-  background: #7D9F43;
+  background: #FE7565;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -107,7 +107,7 @@ input[type="range"]::-moz-range-thumb {
 input[type="range"]::-ms-thumb {
   width: 15px;
   height: 15px;
-  background: #7D9F43;
+  background: #FE7565;
   border-radius: 50%;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -117,7 +117,7 @@ input[type="range"]::-ms-thumb {
 .apply-button {
   width: 100%;
   padding: 15px;
-  background-color: #7D9F43;
+  background-color: #FE7565;
   color: white;
   border: none;
   border-radius: 5px;
@@ -128,5 +128,5 @@ input[type="range"]::-ms-thumb {
 }
 
 .apply-button:hover {
-  background-color: #6a8a3a;
+  background-color: #FE7565;
 }

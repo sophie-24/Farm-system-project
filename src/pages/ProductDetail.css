@@ -32,7 +32,7 @@
 
 .product-image {
   width: 90%;
-  height: 530px;
+  height: 200px;
   border-radius: 10px;
 }
 
@@ -61,7 +61,6 @@
   height: calc(100% - 40px); /* 화면 끝까지 이어지도록 */
   margin: 20px 10px; /* 양쪽 여백 */
 }
-
 
 .product-detail-content {
   display: flex;

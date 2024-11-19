@@ -18,13 +18,13 @@
   flex-grow: 1;
   margin: 0 20px;
   padding: 10px;
-  border: 1px solid #7D9F43;
+  border: 1px solid #FE7565;
   border-radius: 5px;
   font-size: 14px;
 }
 
 .filter-button {
-  background-color: #7D9F43;
+  background-color: #FE7565;
   color: white;
   border: none;
   padding: 10px 15px;
@@ -33,7 +33,7 @@
 }
 
 .filter-button:hover {
-  background-color: #6a8a3a;
+  background-color: #FE7565;
 }
 
 .product-grid {
@@ -70,7 +70,7 @@
 }
 
 .add-to-cart-button {
-  background-color: #7D9F43;
+  background-color: #FE7565;
   color: white;
   border: none;
   padding: 10px;
@@ -79,5 +79,5 @@
 }
 
 .add-to-cart-button:hover {
-  background-color: #6a8a3a;
+  background-color: #FE7565;
 }
